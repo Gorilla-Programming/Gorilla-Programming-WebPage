@@ -1,0 +1,124 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    padding:0; 
+    margin:0;
+}
+.headerTableRow{
+    height:15%;
+    background-image:url('Images/trunk.png');
+    background-size: cover;
+}
+.centerTableRow{
+    height:75%;
+}
+.bottomTableRow{
+    height:50px;
+    background-image:url('Images/trunk.png');
+    background-size: cover;
+}
+.leftCol{
+    width:17%;
+}
+.centerCol{
+    width:66%;
+}
+.rightCol{
+    width:17%;
+}
+.headerImg{
+    width:430px;
+    height:150px;
+}
+.stylishbutton {
+    display:inline;
+    padding:8px;
+    margin:0 auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width:50%;
+    font-weight: bold;
+    color:black;
+    outline:none;
+}
+table a{
+    text-decoration: none;
+}
+.stylishbutton-type2{
+    position:relative;
+    right:20px;
+    margin:5px 5px 0 0;
+    padding:15px;
+    float:right;
+    background-color: #98EFF9;
+    border-radius: 15px;
+}
+.stylishbutton-type2 a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black
+}
+.stylishbutton:hover{
+    background-color:#FDCFFE;
+}
+.stylishbutton-type2:hover{
+    background-color:#FDCFFE
+}
+.loginForm {
+    display:block;
+    width:40%;
+    text-align:center;
+}
+.fieldset{
+    padding:50px 0px;
+    background-image:url('Images/trunk.png');
+}
+.ask{
+    display:inline;
+}
+.optionHead{
+    font-size: 18px;
+    margin-left:20px;
+}
+
+.option {
+    font-size: 15px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+.option a{
+    color: #262627;
+    text-decoration: none;
+   
+}
+
+.option a:hover {
+    color: rgb(250, 14, 14);
+    font-weight: bold;
+}
+.announcementBlock{
+    display:block;
+    margin:5%;
+    padding:0 20px;
+    background-image:url('Images/trunk.png');
+}
+.announcementBlock p{
+    color:red;
+    font-size: 13;
+}
+.messageFromAuthor{
+    color:rgba(0, 0, 0, 0.815);
+    text-align:center;
+    padding:10%;
+}
+.membershipForm{
+    display:block;
+    width:70%;
+    text-align:left;
+}
+.membershipForm fieldset{
+    padding:8%;
+    background-image:url('Images/trunk.png');
+    background-size:cover ;
+}
